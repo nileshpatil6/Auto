@@ -1,0 +1,5 @@
+services:
+  - type: cron
+    name: playwright-login-script
+    schedule: "0 7 * * *"  # Runs at 7:00 AM UTC daily
+    dockerfilePath: ./docker
